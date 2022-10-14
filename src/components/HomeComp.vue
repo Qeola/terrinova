@@ -112,7 +112,7 @@ import FooterComp from './FooterComp.vue'
       &__row {
         display: flex;
         align-items: center;
-        height: 80vh;
+        height: 70vh;
         // margin-top: 2rem;
     }
 
