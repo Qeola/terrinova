@@ -15,8 +15,7 @@
                         <span class="story__col--sub-title">We seek to to solve problems in the production and consumption</span>
                         <span class="story__col--sub-title">end of the value chain by incentivising farmers to plant</span>
                         <span class="story__col--sub-title">bio-fortified grains with improved yield, and make quality ready</span>
-                        <span class="story__col--sub-title">to use flours and grains available to industries and consumers in</span>
-                        <span class="story__col--sub-title">Niger and Benin Republic respectively. </span>
+                        <span class="story__col--sub-title">to use flours and grains available to industries and consumers.</span>
                     </p>
                 </div>
                 <div class="col-md-6 story__col">
@@ -46,13 +45,17 @@
 @import "@/sass/variable.scss";
 @import "@/sass/mixin.scss";
 
+
+#our-story {
+    padding-top: 3rem;
+}
 .story {
     padding-top: 4rem;
     padding-bottom: 4rem;
 
 
     &__col {
-        padding: 3rem 0;
+        padding: 4rem 0;
 
         &--header{
             color: $color-primary;

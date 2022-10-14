@@ -10,7 +10,7 @@
                     <img src='~@/assets/images/img_1/ennovate.png' class="img-fluid rounded-start partners__col--img">
                 </div>
                 <div class="partners__cta text-center">
-                    <button  type="button"  class="partners__cta--btn partners__cta--button">Partner with Us</button>
+                    <button  type="button"  class="partners__cta--btn partners__cta--button">Join our Mission</button>
                 </div>
             </div>
         </div>

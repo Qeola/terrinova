@@ -28,7 +28,7 @@
                                 </h2>
                                 <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body</p>, though the transition does limit overflow.
+                                    <p>We produce nutritionally improved Maize and Cassava flour that's ready for consumption. We also supply bio-fortified grains to farmers and industries like breweries.</p>
                                 </div>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@
                                 </h2>
                                 <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body</p>, though the transition does limit overflow.
+                                    <p>Abdoul Raouf Sayadi Maazou and Espérance Déo Gratias are the co-founders of The Terrinova Group. They are both PAULESI Research fellows, exploring plant breeding at the International Institute of Tropical Agriculture (IITA).</p>
                                 </div>
                                 </div>
                             </div>                            
@@ -56,7 +56,7 @@
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the accordion-body</p>, though the transition does limit overflow.
+                                    <p>In low income countries, too many people are malnutritioned, experience food poisoning and their farmers  do not have access to improved varieties of crops, despite the abundance in laboratories and research institutes. Ids the force that drives us.</p>
                                 </div>
                                 </div>
                             </div>
@@ -70,7 +70,7 @@
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>This is the third item's accordion body.It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the accordion-body</p>, though the transition does limit overflow.
+                                    <p>Our partners are Ennovate Lab, a Startup foundry and innovation hub, Afrilabs, GIZ and Pan-African University, with network organisation of over 300 Innovation centres across 50 African countries.</p>, 
                                 </div>
                                 </div>
                             </div>
@@ -125,19 +125,19 @@
         }
     }
 }
-    .accordion-button:before {
-    float: right;
-    font-family: FontAwesome;
-    background-image: url('@/assets/images/img_1/minus.svg');
-    padding-right: 5px;
-}
-    .accordion-button .collapsed:after {
-    float: right;
-    background-image: url('@/assets/images/img_1/plus.svg');
-}
+//     .accordion-button:before {
+//     float: right;
+//     font-family: FontAwesome;
+//     background-image: url('@/assets/images/img_1/minus.svg');
+//     padding-right: 5px;
+// }
+//     .accordion-button .collapsed:after {
+//     float: right;
+//     background-image: url('@/assets/images/img_1/plus.svg');
+// }
 
 .accordion-button:not(.collapsed)::after {
-    background-image: url('@/assets/images/img_1/plus.svg');
+    background-image: url('@/assets/images/img_1/minus.svg');
     transform: rotate(-180deg);
 }
 
