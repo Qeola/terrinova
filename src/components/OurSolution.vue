@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row justify-content-center solution__row">
                 <div class="col-md-4 solution__col align-self-center">
-                    <h1 class="solution__col--header">Our Solution</h1>
+                    <h1 class="solution__col--header">OUR SOLUTION</h1>
                     <p class="solution__col--title">
                         <span class="solution__col--desc">We Buy From </span>
                         <span class="solution__col--desc">Cooperatives, & Sell To </span>
@@ -65,10 +65,13 @@
 @import "@/sass/mixin.scss";
 
 .solution {
-    padding: 3 0rem;
+    padding: 4rem 0;
 
 
     &__col {
+        padding: 4rem 0;
+        font-family: 'Inter';
+        font-style: normal;
 
         &--header{
             color: $color-primary;
@@ -79,14 +82,14 @@
         &--title{
             padding-bottom: 2rem;
             display: block;
+            
         }
 
         &--desc{
             color: $color-deep-green;
             font-size: $font-xrg;
-            font-weight: map-get($font-weights, classic);
+            font-weight: map-get($font-weights, medium);
             padding-bottom: 1.5rem;
-           
         }
     }
 
@@ -101,6 +104,8 @@
         
         &--title {
             padding-top: 2rem;
+            color:  $color-deep-green;
+            font-weight: map-get($font-weights, medium);
         }
     }
 
@@ -113,7 +118,7 @@
     }
 
     &__card-body {
-        padding: 4rem 4rem;
+        padding: 4rem 2.5rem;
     }
     
     &__cta {
@@ -126,10 +131,10 @@
 
 @media only screen and (max-width: 600px) {
     .solution {
-        padding: 0 2rem;
+        padding: 4rem 2rem;
 
         &__col {
-            padding-top: 2rem;
+            padding-top: 0rem;
         }
 
         &__card-body {

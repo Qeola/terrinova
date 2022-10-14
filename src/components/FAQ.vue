@@ -3,7 +3,7 @@
         <div class="container">
             <h1 class="faq__container--title">Frequently Asked Questions</h1>
             <div class="row justify-content-center">
-                <div class="col-md-8">
+                <div class="col-md-8 faqs__col">
                     <div class="accordion faq__accordion" id="accordionExample">
                             <div class="faq__sub-content">
                                 <div class="accordion-item faq__accordion-item">
@@ -93,23 +93,25 @@
 @import "@/sass/mixin.scss";
 .faq {
     background-color: $color-rgb;
-    padding: 3rem 0;
+    padding: 4rem 0;
 
     &__container{
         // padding: 2rem 0;
 
         &--title{
+            font-family: 'Inter';
+            font-style: normal;
             text-align: center;
             color: $color-deep-green;
             font-weight: map-get($font-weights, medium);
-            font-size: $font-xrg;
-            padding-bottom: 1.5rem;
+            // font-size: $font-xrg;
+            padding-bottom: 2rem;
         }
     }
 
-    // .strong {
-    //     color: $color-deep-green;
-    // }
+    &__col {
+        padding: 4rem 0;
+    }
 
     &__accordion {
         box-shadow: none;
@@ -119,7 +121,7 @@
         padding-bottom: 1rem;
         box-shadow: none;
         border-radius: 10px;
-
+        
         &--bold {
             color: $color-deep-green;
         }
@@ -136,9 +138,20 @@
 //     background-image: url('@/assets/images/img_1/plus.svg');
 // }
 
+.accordion-button {
+    border: none;
+}
+
+.accordion-button:not(.collapsed) {
+    // color: #0c63e4;
+    background-color: $color-rgb;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+
 .accordion-button:not(.collapsed)::after {
     background-image: url('@/assets/images/img_1/minus.svg');
     transform: rotate(-180deg);
+   
 }
 
 .accordion-button::after {
@@ -157,7 +170,7 @@
 
 @media only screen and (max-width: 600px) {
     .faq {
-        padding: 2rem 2rem;
+        padding: 4rem 0rem;
 
         &__col {
             padding-top: 2rem;

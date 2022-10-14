@@ -2,8 +2,8 @@
     <div class="succeed">
         <div class="container">
             <div class="row succeed__row justify-content-between">
-                <div class="col-md-5">
-                    <img src="~@/assets/images/img_1/men.png" class="img-fluid" alt="...">
+                <div class="col-md-5 succeed__col">
+                    <img src="~@/assets/images/img_1/sdg.png" class="img-fluid" alt="...">
                 </div>
                 <div class="col-md-6 succeed__col align-self-center">
                     <h1 class="succeed__col--header">
@@ -54,22 +54,27 @@
 @import "@/sass/mixin.scss";
 .succeed {
     background-color: $color-rgb;
-    padding: 3rem 0;
+    padding: 4rem 0;
 
     &__row {
-        padding-top: 3rem;
+        padding-top: 4rem 0;
+        padding-bottom: 4rem 0;
     }
 
     &__col {
-        
+        padding-top: 4rem 0;
+        padding-bottom: 4rem 0;
+
         &--header{
             padding-top: .5rem;
         }
 
         &--sub-header{
+            font-family: 'Inter';
+            font-style: normal;
             color: $color-deep-green;
             font-size: $font-xrg;
-            font-weight: map-get($font-weights, classic);
+            font-weight: map-get($font-weights, bold);
             display: block;
         }
 
@@ -78,10 +83,12 @@
         }
 
         &--sub-text{
-            color: $color-deep-green;
             font-size: $font-sm;
-            font-weight: map-get($font-weights, regular);
+            color: $color-deep-green;
+            font-weight: map-get($font-weights, heavy);
             display: block;
+            font-family: 'Inter';
+            font-style: normal;
         }
 
         &--title {
@@ -89,11 +96,13 @@
         }
 
         &--sub-title, ul {
-            color: $color-deep-green;
+            font-family: 'Inter';
+            font-style: normal;
+            color: $color-primary;
             font-size: $font-sm;
             font-weight: map-get($font-weights, bold);
             display: block;
-            list-style-type: circle $color-deep-green;
+            list-style-type: circle $color-primary;
         }
     }
 
@@ -108,7 +117,7 @@
 
 @media only screen and (max-width: 600px) {
     .succeed {
-        padding: 2rem 2rem;
+        padding: 4rem 1rem;
 
         &__col {
             padding-top: 2rem;

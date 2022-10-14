@@ -6,10 +6,10 @@
                 <div class="col-md-3 footer__col">
                     <img src='~@/assets/images/img_1/afri.png' class="img-fluid rounded-start footer__col--img-afri">
                 </div>
-                <div class="col-md-3 footer__col ">
+                <div class="col-md-3 footer__col">
                     <img src='~@/assets/images/img_1/giz.png' class="img-fluid rounded-start footer__col--img-giz">
                 </div>
-                <div class="col-md-3 footer__col">
+                <div class="col-md-3 footer__col text-center">
                     <img src='~@/assets/images/img_1/pau.png' class="img-fluid rounded-start footer__col--img-pau">
                 </div>
                 <div class="col-md-3 footer__col">
@@ -19,7 +19,7 @@
             <hr>
             <div class="row">
                 <div class="col-md-12 footer__col">
-                    <h2 class="footer__col--text">Parcelle H lot 265 Abomey-Calavi République du Bénin  ||  hello@terrinovagroup.com  ||  +22966074747 </h2>
+                    <h2 class="footer__col--text">Parcelle H lot 265 Abomey-Calavi République du Bénin  |  hello@terrinovagroup.com  |  +22966074747 </h2>
                 </div>
             </div>
         </div>
@@ -79,14 +79,14 @@
 
 @media only screen and (max-width: 600px) {
     .footer {
-        padding: 2rem 2rem;
+        padding: 2rem 0;
 
         &__col {
             padding-top: 2rem;
             text-align: center;
 
             &--img-elab, &--img-afri, &--img-giz {
-                width: 50%;
+                width: 40%;
             }
 
         &--img-pau{

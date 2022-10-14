@@ -21,10 +21,10 @@
                 <div class="col-md-6 story__col">
                     <div class="row justify-content-evenly story__sub-row">
                         <div class="col-md-6 story__sub-col">
-                            <img src='~@/assets/images/img_1/group_y.png' width="100%" class="img-fluid story__sub-col--img-groupx">
+                            <img src='~@/assets/images/img_1/abdoul.jpg' width="100%" class="img-fluid story__sub-col--img-groupx">
                         </div>
                         <div class="col-md-6 story__sub-col">
-                            <img src='~@/assets/images/img_1/group_x.png' width="100%" class="img-fluid story__sub-col--img-groupy">
+                            <img src='~@/assets/images/img_1/espérance.jpg' width="100%" class="img-fluid story__sub-col--img-groupy">
                         </div>
                         <div class="col-md-12 story__sub-col text-center">
                             <h1 class="story__sub-col--text">Abdoul & Espérance</h1>
@@ -56,11 +56,14 @@
 
     &__col {
         padding: 4rem 0;
+        font-family: 'Inter';
+        font-style: normal;
 
         &--header{
             color: $color-primary;
             font-weight: map-get($font-weights, medium);
             padding-bottom: 1.5rem;
+           
         }
 
         &--title{
@@ -71,8 +74,9 @@
 
         &--sub-title{
             font-size: $font-sm;
-            color: $color-primary;
-            font-weight: map-get($font-weights, regular);
+            color: $color-deep-green;
+            font-weight: map-get($font-weights, heavy);
+            
         }
     }
 
@@ -143,7 +147,7 @@
 // media Queries
 @media only screen and (min-width: 768px) {
     .story{
-        padding: 0 0;
+        padding: 4rem 0;
 
         &__col {
             padding: 2rem 0rem;

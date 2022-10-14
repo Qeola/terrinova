@@ -10,7 +10,7 @@
                 <!-- </router-link> -->
             </li>
             <li class="nav-item navbar__nav-item">
-                <img src='~@/assets/images/img_1/terrinova.png' class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="70%">
+                <img src='~@/assets/images/img_1/terrinova.png' class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
             </li>
             <li class="nav-item navbar__nav-item">
                 <a class=" navbar__nav-item--nav-link" href="#the-opportunity">Our Team</a>

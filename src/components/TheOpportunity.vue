@@ -4,8 +4,8 @@
             <div class="row opportunity__row justify-content-between">
                 <div class="col-md-5 opportunity__col align-self-center">
                     <h1 class="opportunity__col--header">
-                        <span class="opportunity__col--sub-header">The Opportunities </span>
-                        <span class="opportunity__col--sub-header">We See</span>
+                        <span class="opportunity__col--sub-header">The Opportunities We See</span>
+                       
                     </h1>
                     <p class="opportunity__col--title">
                         <span class="opportunity__col--sub-title">
@@ -42,13 +42,16 @@
 
 .opportunity {
     background-color: $color-rgb;
-    padding: 3rem 0;
+    padding: 4rem 0;
 
     &__row {
         padding-top: 3rem;
+        padding-bottom: 3rem;
     }
 
     &__col {
+        font-family: 'Inter';
+        font-style: normal;
         
         &--header{
             padding-top: .5rem;
@@ -56,9 +59,9 @@
 
         &--sub-header{
             color: $color-deep-green;
-            font-size: $font-xrg;
-            font-weight: map-get($font-weights, classic);
-            display: block;
+            // font-size: $font-xrg;
+            font-weight: map-get($font-weights, medium);
+            
         }
 
         &--title {
@@ -71,7 +74,8 @@
         &--sub-title, ul {
             color: $color-deep-green;
             font-size: $font-sm;
-            font-weight: map-get($font-weights, regular);
+            font-weight: map-get($font-weights, heavy);
+            // font-weight: 300;
             display: block;
             list-style-type: circle $color-primary;
         }
@@ -83,7 +87,7 @@
 
 @media only screen and (max-width: 600px) {
     .opportunity {
-        padding: 0 2rem;
+        padding: 4rem 1rem;
 
         &__col {
             padding-top: 2rem;

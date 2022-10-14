@@ -52,7 +52,7 @@ import FooterComp from './FooterComp.vue'
 .banner{
     background-image: 
         url('@/assets/images/img_1/green_bg.png'),
-        url('@/assets/images/img_1/cassava.jpg');
+        url('@/assets/images/img_1/hero.jpg');
     background-position: center;
     background-size: cover;
     height: 100vh;
