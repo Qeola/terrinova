@@ -32,7 +32,7 @@
 
 
 .navbar {
-    padding-top: .5rem;
+    padding-top: 3rem;
 
     &__nav-item {
         margin: .3rem 3rem;
@@ -68,7 +68,7 @@
 //     flex-wrap: wrap;
 // }
     .navbar{
-        // padding-top: 4rem;
+        padding-top: .5rem;
 
         &__nav {
             padding: 0rem;
