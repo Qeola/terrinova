@@ -32,7 +32,7 @@
 
 
 .navbar {
-    padding-top: 3rem;
+    padding-top: .5rem;
 
     &__nav-item {
         margin: .3rem 3rem;
