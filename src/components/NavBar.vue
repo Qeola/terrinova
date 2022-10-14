@@ -15,8 +15,8 @@
             <li class="nav-item navbar__nav-item">
                 <a class=" navbar__nav-item--nav-link" href="#the-opportunity">Our Team</a>
             </li>
-            <li class="nav-item navbar__nav-item">
-                <a class=" navbar__nav-item--nav-link" href="#faqs">FAQs</a>
+            <li class="nav-item navbar__nav-item align-items-start flex-column bd-highlight">
+                <a class=" navbar__nav-item--nav-link bd-highlight" href="#faqs">FAQs</a>
             </li>
         </ul>
     </div>
@@ -62,19 +62,24 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
+
+// .nav {
+//     display: flex;
+//     flex-wrap: wrap;
+// }
     .navbar{
-        padding-top: 0rem;
+        // padding-top: 4rem;
 
         &__nav {
             padding: 0rem;
-            // display: flex;
-            // flex-direction: column;
+          
         }
         
         &__nav-item {
-            padding: 0 0rem;
-
+            padding: 0 3rem;
+            // text-align: center;
             &--img{
+                // display: none;
                 width: 50%;
             }
         }

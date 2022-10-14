@@ -108,11 +108,12 @@ import FooterComp from './FooterComp.vue'
 
 @media only screen and (max-width: 600px) {
     .banner{
-
+      
       &__row {
         display: flex;
         align-items: center;
-        height: 85vh;
+        height: 80vh;
+        // margin-top: 2rem;
     }
 
       &__col { 
