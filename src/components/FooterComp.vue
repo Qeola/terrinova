@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="container">
-            <h1 class="footer__container--title">TERRINOVA is proudly supported by </h1>
+            <h1 class="footer__container--title">TERRINOVA is Proudly supported by </h1>
             <div class="row footer__row align-items-center">
                 <div class="col-md-3 footer__col">
                     <img src='~@/assets/images/img_1/afri.png' class="img-fluid rounded-start footer__col--img-afri">
@@ -21,7 +21,6 @@
                 <div class="col-md-12 footer__col">
                     <h2 class="footer__col--text">Parcelle H lot 265 Abomey-Calavi République du Bénin  ||  hello@terrinovagroup.com  ||  +22966074747 </h2>
                 </div>
-
             </div>
         </div>
     </div>
