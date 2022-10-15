@@ -1,22 +1,20 @@
 <template>
     <div class="navbar justify-content-center">
-        <ul class="nav">
+        <ul class="nav" id="faqs">
             <li class="nav-item navbar__nav-item">
                 <a class="navbar__nav-item--nav-link" aria-current="page" href="#our-story">Our Story</a>
             </li>
             <li class="nav-item navbar__nav-item">
-                <!-- <router-link to="" class="text-decoration-none navbar__route"> -->
-                    <a class="navbar__nav-item--nav-link" href="#products">Our Products</a>
-                <!-- </router-link> -->
+                <a class="navbar__nav-item--nav-link"  href="#products">Our Products</a>
             </li>
             <li class="nav-item navbar__nav-item">
-                <img src='~@/assets/images/img_1/terrinova.png' class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
+                <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
             </li>
             <li class="nav-item navbar__nav-item">
-                <a class=" navbar__nav-item--nav-link" href="#the-opportunity">Our Team</a>
+                <a class=" navbar__nav-item--nav-link"  href="#the-opportunity">Our Team</a>
             </li>
-            <li class="nav-item navbar__nav-item align-items-start flex-column bd-highlight">
-                <a class=" navbar__nav-item--nav-link bd-highlight" href="#faqs">FAQs</a>
+            <li class="nav-item navbar__nav-item">
+                <a class=" navbar__nav-item--nav-link"  href="#faqs">FAQs</a>
             </li>
         </ul>
     </div>
@@ -43,16 +41,12 @@
         // align-items: baseline;
 
         &--img{
-            // display: flex;
-            // padding-right: 4rem;
             padding-bottom: 0rem;
-            // margin-left: 4rem;
         }
 
         &--nav-link{
             text-decoration: none;
             color: $color-light;
-
             font-weight: bold;
         }
     }
@@ -63,26 +57,48 @@
 
 @media only screen and (max-width: 600px) {
 
-// .nav {
+// .container {
 //     display: flex;
-//     flex-wrap: wrap;
+//     align-items: left;
+//     // width: 100%;
 // }
+
     .navbar{
-        padding-top: .5rem;
+        padding-top: 1rem;
+        // display: flex;
+        // flex-wrap: wrap;
+        // text-align: center;
+        
 
         &__nav {
-            padding: 0rem;
-          
+            // padding-right: 2rem;
+            text-align: center;
+            // display: flex;
+        }
+
+        &--nav-link{
+            // padding: 2rem;
+            font-size: $font-md;
+            // text-align: center;
         }
         
         &__nav-item {
-            padding: 0 3rem;
-            // text-align: center;
+            padding: 0rem 1.5rem;
+            // display: block;
+            margin: 0rem 0rem;
+            text-align: center;
+
             &--img{
-                // display: none;
+                display: none;
+                text-align: left;
+                padding-left: 0.5rem;
                 width: 50%;
             }
         }
     }
+#faqs{
+    text-align: center;
+    padding: 2rem 2rem;
+}
 }
 </style>
