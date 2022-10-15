@@ -98,7 +98,7 @@
     }
 #faqs{
     text-align: center;
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
 }
 }
 </style>
