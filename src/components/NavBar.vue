@@ -4,7 +4,7 @@
             <li class="nav-item navbar__nav-item">
                 <a class="navbar__nav-item--nav-link" aria-current="page" href="#our-story">Our Story</a>
             </li>
-            <li class="nav-item navbar__nav-item">
+            <li class="nav-item navbar__nav-item ps-2">
                 <a class="navbar__nav-item--nav-link"  href="#products">Our Products</a>
             </li>
             <li class="nav-item navbar__nav-item">
@@ -14,7 +14,7 @@
                 <a class=" navbar__nav-item--nav-link"  href="#the-opportunity">Our Team</a>
             </li>
             <li class="nav-item navbar__nav-item">
-                <a class=" navbar__nav-item--nav-link"  href="#faqs">FAQs</a>
+                <a class=" navbar__nav-item--nav-link ps-2"  href="#faqs">FAQs</a>
             </li>
         </ul>
     </div>
@@ -90,15 +90,15 @@
 
             &--img{
                 display: none;
-                text-align: left;
+                text-align: center;
                 padding-left: 0.5rem;
                 width: 50%;
             }
         }
     }
 #faqs{
-    text-align: center;
-    padding: 2rem 0rem;
+    text-align: left;
+    padding: 2rem 2rem;
 }
 }
 </style>
