@@ -1,22 +1,24 @@
 <template>
     <div class="navbar justify-content-center">
-        <ul class="nav" id="faqs">
-            <li class="nav-item navbar__nav-item">
-                <a class="navbar__nav-item--nav-link" aria-current="page" href="#our-story">Our Story</a>
-            </li>
-            <li class="nav-item navbar__nav-item ps-2">
-                <a class="navbar__nav-item--nav-link"  href="#products">Our Products</a>
-            </li>
-            <li class="nav-item navbar__nav-item">
-                <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
-            </li>
-            <li class="nav-item navbar__nav-item">
-                <a class=" navbar__nav-item--nav-link"  href="#the-opportunity">Our Team</a>
-            </li>
-            <li class="nav-item navbar__nav-item">
-                <a class=" navbar__nav-item--nav-link ps-2"  href="#faqs">FAQs</a>
-            </li>
-        </ul>
+        <div class="new">
+            <ul class="nav" id="faqs">
+                <li class="nav-item navbar__nav-item ps-4">
+                    <a class="navbar__nav-item--nav-link ps-4" aria-current="page" href="#our-story">Our Story</a>
+                </li>
+                <li class="nav-item navbar__nav-item ps-4">
+                    <a class="navbar__nav-item--nav-link"  href="#products">Our Products</a>
+                </li>
+                <li class="nav-item navbar__nav-item ps-1">
+                    <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
+                </li>
+                <li class="nav-item navbar__nav-item">
+                    <a class=" navbar__nav-item--nav-link ps-0"  href="#the-opportunity">Our Team</a>
+                </li>
+                <li class="nav-item navbar__nav-item">
+                    <a class=" navbar__nav-item--nav-link ps-0" href="#faqs">FAQs</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
@@ -96,9 +98,12 @@
             }
         }
     }
-#faqs{
-    text-align: left;
-    padding: 2rem 2rem;
-}
+
+    #faqs{
+        text-align: left;
+        padding: 2rem 2rem;
+    }
+
+
 }
 </style>
