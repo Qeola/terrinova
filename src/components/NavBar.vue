@@ -12,7 +12,7 @@
                     <a class="navbar__nav-item--nav-link"  href="#products">Our Products</a>
                 </li>
                 <li class="nav-item navbar__nav-item align-self-start pt-2">
-                    <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="80%">
+                    <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
                 </li>
                 <li class="nav-item navbar__nav-item">
                     <a class=" navbar__nav-item--nav-link ps-1"  href="#the-opportunity">Our Team</a>

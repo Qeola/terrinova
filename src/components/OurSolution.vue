@@ -2,7 +2,7 @@
     <div class="solution" id="our-solution">
         <div class="container">
             <div class="row justify-content-between solution__row">
-                <div class="col-md-5 solution__col align-self-center">
+                <div class="col-md-4 solution__col align-self-center">
                     <h1 class="solution__col--header">OUR SOLUTION</h1>
                     <p class="solution__col--title">
                         <span class="solution__col--desc">We Buy From </span>
@@ -15,7 +15,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <div class="row gx-5 justify-content-evenly">
                         <div class="col-md-5 solution__col">
                             <div class="card solution__card h-100 mb-3" style="max-width: 35rem;">
