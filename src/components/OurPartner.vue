@@ -44,7 +44,7 @@
     }
 
     &__col {
-        padding-top: 1.5rem;
+        padding-top: rem;
         padding-bottom: 2rem;
 
         &--img {
