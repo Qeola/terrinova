@@ -10,7 +10,9 @@
                     <img src='~@/assets/images/img_1/ennovate.png' class="img-fluid rounded-start partners__col--img">
                 </div>
                 <div class="partners__cta text-center">
-                    <button  type="button"  class="partners__cta--btn partners__cta--button">Join our Mission</button>
+                    <a href="../assets/images/sample-file (1).pdf"  download="../assets/images/sample-file" target="_blank">
+                        <button  type="submit"  class="partners__cta--btn partners__cta--button">Join our Mission</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -26,22 +28,24 @@
 @import "@/sass/variable.scss";
 @import "@/sass/mixin.scss";
 .partners {
-    padding: 4rem 0;
+    padding: 1rem 0;
 
     &__container {
 
         &--header {
             font-family: 'Inter';
             font-style: normal;
+            font-size: $font-md;
             color: $color-deep-green;
-            font-weight: map-get($font-weights, medium);
+            font-weight: map-get($font-weights, classic);
             padding: 4rem 0;
             text-align: center;
         }
     }
 
     &__col {
-        padding: 2rem 0;
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
 
         &--img {
             width: 60%;
@@ -57,10 +61,18 @@
 
 @media only screen and (max-width: 600px) {
     .partners {
-        padding: 4rem 0rem;
+        padding: .5rem 0rem;
+
+        &__container {
+
+                &--header {
+                    font-size: $font-xrg;
+                    padding: 2rem 0;
+                }
+            }
 
         &__col {
-            padding-top: .5rem;
+            padding-bottom: .5rem;
         }
 
         &--img {

@@ -95,7 +95,7 @@
             align-items: left;
             
             &--title {
-                font-size: $font-xrg;
+                font-size: $font-rg;
                 padding: 2rem 0;
             }
         }
@@ -129,8 +129,9 @@
         &__sub-col {
 
             &--text{
-                    padding-top: .5rem;
-                    font-size: $font-xsm;
+                    padding-top: 2rem;
+                    font-size: $font-sm;
+                    font-weight: map-get($font-weights, classic);
                 }
         }
     }

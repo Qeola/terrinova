@@ -1,5 +1,5 @@
 <template>
-    <div class="team">
+    <div class="team" id="our-team">
         <div class="container">
             <h1 class="team__container--header">Our Team</h1>
             <div class="row">
@@ -9,7 +9,7 @@
                             <div class="col-md-4">
                                 <img src='~@/assets/images/img_1/abdoul.jpg' class="img-fluid rounded-start story__sub-col--img-groupy">
                             </div>
-                            <div class="col-md-8 align-self-center">
+                            <div class="col-md-8 align-self-end">
                                 <div class="card-body">
                                     <h5 class="card-title"> 
                                         <span class="team__card-title--desc">Abdoul Raouf </span>
@@ -33,7 +33,7 @@
                             <div class="col-md-4">
                                 <img src='~@/assets/images/img_1/espérance.jpg' class="img-fluid rounded-start story__sub-col--img-groupx">
                             </div>
-                            <div class="col-md-8 align-self-center">
+                            <div class="col-md-8 align-self-end">
                                 <div class="card-body">
                                     <h5 class="card-title">
                                         <span class="team__card-title--desc">Espérance </span>
@@ -73,8 +73,8 @@
             font-family: 'Inter';
             font-style: normal;
             color: $color-deep-green;
-            font-weight: map-get($font-weights, medium);
-            // font-size: $font-xrg;
+            font-weight: map-get($font-weights, classic);
+            font-size: $font-md;
             text-align: center;
             padding-bottom: 3rem;
         }
@@ -90,7 +90,7 @@
         font-style: normal;
 
         &--desc{
-            color: $color-primary;
+            color: $color-deep-green;
             font-weight: map-get($font-weights, medium);
             font-size: $font-rg;
             display: block;
@@ -103,7 +103,7 @@
         }
         
         &--sub-desc{
-            color: $color-primary;
+            color: $color-deep-green;
             font-weight: map-get($font-weights, heavy);
             font-size: $font-sm;
             // display: block;
@@ -125,7 +125,14 @@
 
 @media only screen and (max-width: 600px) {
     .team {
-        padding: 4rem 2rem;
+        padding: 4rem .5rem .5rem 0;
+
+        &__container {
+            &--header {
+                font-size: $font-xrg;
+                padding-bottom: .5rem;
+            }
+        }
 
         &__col {
             padding-top: 2rem;
@@ -134,9 +141,9 @@
         &__card-title {
         padding:  2rem;
         
-        &__card {
-            max-width: 500px;
-        }
+        // &__card {
+        //     max-width: 500px;
+        // }
 
         &--desc{
             font-size: $font-sm;
@@ -163,5 +170,6 @@
         //    } 
         // }
     }
+
 }
 </style>

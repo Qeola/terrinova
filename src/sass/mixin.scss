@@ -31,5 +31,37 @@
 }
 
 
+// small buttons
+
+@mixin button {
+    &--btn{
+        background-color: white;
+        border-radius: $radius-md;
+        color: white;
+        padding: 9px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: $font-xsm;
+        font-weight:  map-get($font-weights, bold);
+        margin: 5px 2px;
+        -webkit-transition-duration: 0.4s; /* Safari */
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+    &--button{
+        background-color: $color-primary;
+        color: $color-light;
+        border: 2px solid $color-primary;
+    }
+
+    &--button:hover{
+        background-color: white;
+        color:  $color-primary;
+    }
+}
+
+
 // border-radius
 $radius-md: 10px;

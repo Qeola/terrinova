@@ -70,28 +70,28 @@
 
         &--header{
             color: $color-primary;
-            font-size: $font-xrg;
+            font-size: $font-sm;
             font-weight: map-get($font-weights, medium);
             display: block;
         }
 
-        &--sub-header{
-           padding-top: 1rem;
-        }
+        // &--sub-header{
+        //    padding-top: 1rem;
+        // }
 
         &--desc{
             font-family: 'Inter';
             font-style: normal;
             padding-top: .5rem;
             display: block;
+            font-size: $font-md;
             font-weight: map-get($font-weights, classic);
         }
 
         &--text{
             color: $color-deep-green;
             font-size: $font-sm;
-            font-weight: map-get($font-weights, classic);
-            
+            font-weight: map-get($font-weights, heavy);
         }
     }
 
@@ -103,6 +103,9 @@
 
         
         &--title {
+            color: $color-deep-green;
+            font-size: $font-sm;
+            font-weight: map-get($font-weights, medium);
             padding-top: 2rem;
         }
     }
@@ -120,7 +123,19 @@
         padding: 4rem 1rem;
 
         &__col {
-            padding: .5rem 2rem;
+            padding: .5rem 1.5rem;
+            
+            &--header{
+                font-size: $font-xsm;
+            }
+
+            &--desc{
+                font-size: $font-xrg;
+            }
+
+        &--text{
+                font-size: $font-xsm;
+            }
         }
 
         &__new-col {

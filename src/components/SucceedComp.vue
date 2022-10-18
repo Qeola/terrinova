@@ -37,7 +37,9 @@
                         </span>
                     </p>
                     <div class="succeed__cta">
-                        <button  type="button"  class="succeed__cta--btn succeed__cta--button">Partner with Us</button>
+                        <a href="../assets/images/sample-file (1).pdf"  download="../assets/images/sample-file" target="_blank">
+                            <button  type="submit"  class="succeed__cta--btn succeed__cta--button">Partner with Us</button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -73,8 +75,8 @@
             font-family: 'Inter';
             font-style: normal;
             color: $color-deep-green;
-            font-size: $font-xrg;
-            font-weight: map-get($font-weights, bold);
+            font-size: $font-md;
+            font-weight: map-get($font-weights, classic);
             display: block;
         }
 
@@ -121,6 +123,23 @@
 
         &__col {
             padding-top: 2rem;
+
+            &--sub-header{
+                font-size: $font-xrg;
+            }
+
+            &--sub-text{
+                font-size: $font-xsm;
+            }
+
+            
+            &--title {
+                padding-top: .5rem;
+            }
+
+            &--sub-title, ul {
+                font-size: $font-xsm;
+            }
         }
     }
 }

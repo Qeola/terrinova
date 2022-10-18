@@ -1,21 +1,24 @@
 <template>
     <div class="navbar justify-content-center">
-        <div class="new">
-            <ul class="nav" id="faqs">
-                <li class="nav-item navbar__nav-item ps-4">
-                    <a class="navbar__nav-item--nav-link ps-4" aria-current="page" href="#our-story">Our Story</a>
-                </li>
-                <li class="nav-item navbar__nav-item ps-4">
-                    <a class="navbar__nav-item--nav-link"  href="#products">Our Products</a>
+        <div class="new text-center">
+            <li class="navbar__list ps-2">
+                <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__list--img" href="#home-comp" width="100%">
+            </li>
+            <ul class="nav text-center" id="faqs">
+                <li class="nav-item navbar__nav-item ps-1">
+                    <a class="navbar__nav-item--nav-link" aria-current="page" href="#our-story">Our Story</a>
                 </li>
                 <li class="nav-item navbar__nav-item ps-1">
+                    <a class="navbar__nav-item--nav-link"  href="#products">Our Products</a>
+                </li>
+                <li class="nav-item navbar__nav-item">
                     <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
                 </li>
                 <li class="nav-item navbar__nav-item">
-                    <a class=" navbar__nav-item--nav-link ps-0"  href="#the-opportunity">Our Team</a>
+                    <a class=" navbar__nav-item--nav-link ps-1"  href="#the-opportunity">Our Team</a>
                 </li>
                 <li class="nav-item navbar__nav-item">
-                    <a class=" navbar__nav-item--nav-link ps-0" href="#faqs">FAQs</a>
+                    <a class=" navbar__nav-item--nav-link ps-1" href="#faqs-comp">FAQs</a>
                 </li>
             </ul>
         </div>
@@ -33,6 +36,10 @@
 
 .navbar {
     padding-top: 3rem;
+
+    &__list {
+        display: none;
+    }
 
     &__nav-item {
         margin: .3rem 3rem;
@@ -59,29 +66,21 @@
 
 @media only screen and (max-width: 600px) {
 
-// .container {
-//     display: flex;
-//     align-items: left;
-//     // width: 100%;
-// }
-
-    .navbar{
+    .navbar {
         padding-top: 1rem;
-        // display: flex;
-        // flex-wrap: wrap;
-        // text-align: center;
         
+        &__list {
+            display: inline-block;
 
-        &__nav {
-            // padding-right: 2rem;
-            text-align: center;
-            // display: flex;
+            &--img {
+                width: 70%;
+                text-align: center;
+                padding-bottom: 1rem;
+            }
         }
 
         &--nav-link{
-            // padding: 2rem;
             font-size: $font-md;
-            // text-align: center;
         }
         
         &__nav-item {
@@ -89,21 +88,28 @@
             // display: block;
             margin: 0rem 0rem;
             text-align: center;
+        }
 
-            &--img{
-                display: none;
-                text-align: center;
-                padding-left: 0.5rem;
-                width: 50%;
-            }
+        &__nav-item:nth-child(3) {
+            padding: 0rem 1.5rem;
+            display: none;
+            margin: 0rem 0rem;
+            text-align: center;
+        }
+
+        &__nav-item, &--img {
+            padding: 0.5rem;
         }
     }
 
-    #faqs{
-        text-align: left;
-        padding: 2rem 2rem;
-    }
+    .nav {
+            text-align: center;
+        }
 
+    #faqs{
+        display: flex;
+        justify-content: center;
+    }
 
 }
 </style>

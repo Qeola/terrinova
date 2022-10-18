@@ -1,5 +1,5 @@
 <template>
-    <div class="faq" id="faqs">
+    <div class="faq" id="faqs-comp">
         <div class="container">
             <h1 class="faq__container--title">Frequently Asked Questions</h1>
             <div class="row justify-content-center">
@@ -70,7 +70,7 @@
                                 </h2>
                                 <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>Our partners are Ennovate Lab, a Startup foundry and innovation hub, Afrilabs, GIZ and Pan-African University, with network organisation of over 300 Innovation centres across 50 African countries.</p>, 
+                                    <p>Our partners are Ennovate Lab, a Startup foundry and innovation hub, Afrilabs, GIZ and Pan-African University, with network organisation of over 300 Innovation centres across 50 African countries.</p>
                                 </div>
                                 </div>
                             </div>
@@ -103,8 +103,8 @@
             font-style: normal;
             text-align: center;
             color: $color-deep-green;
-            font-weight: map-get($font-weights, medium);
-            // font-size: $font-xrg;
+            font-weight: map-get($font-weights, classic);
+            font-size: $font-md;
             padding-bottom: 2rem;
         }
     }
@@ -124,6 +124,7 @@
         
         &--bold {
             color: $color-deep-green;
+            font-size: $font-xxsm;
         }
     }
 }
@@ -171,6 +172,14 @@
 @media only screen and (max-width: 600px) {
     .faq {
         padding: 4rem 0rem;
+
+            &__container{
+            // padding: 2rem 0;
+
+            &--title{
+                font-size: $font-xrg;
+            }
+        }
 
         &__col {
             padding-top: 2rem;

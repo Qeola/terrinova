@@ -63,6 +63,7 @@
             color: $color-primary;
             font-weight: map-get($font-weights, medium);
             padding-bottom: 1.5rem;
+            font-size: $font-sm;
            
         }
 
@@ -76,7 +77,6 @@
             font-size: $font-sm;
             color: $color-deep-green;
             font-weight: map-get($font-weights, heavy);
-            
         }
     }
 
@@ -112,27 +112,31 @@
 /* Extra small devices (phones, 600px and down) */
 
 @media only screen and (max-width: 600px) {
-    .story{
+    .story{ 
+        padding-bottom: 0rem;
 
             &__col {
                 padding: 0 2rem;
+
+                &--header{
+                    font-size: $font-xsm;
+                }
+
+                &--sub-title{
+                    font-size: $font-xsm;
+                }
             }
 
             &__sub-col {
-            padding: 0 3rem;
+                padding: 0 3rem;
 
             &--img-groupx{
-                -ms-transform: scaleY(1.5); /* IE 9 */
-                transform: scaleY(1);
-                border-radius: 10px;
-                padding-bottom: 2rem;
+                display: none;
                 // width: 50%;
             }
 
             &--img-groupy{
-                -ms-transform: scaleY(1.5); /* IE 9 */
-                transform: scaleY(1);
-                border-radius: 10px;
+                display: none;
                 // width: 50%;
             }
 
