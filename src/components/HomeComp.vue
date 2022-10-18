@@ -76,7 +76,7 @@ import FooterComp from './FooterComp.vue'
         }
 
         &--title {
-            font-size: $font-xlg;
+            font-size: $font-xxlg;
             font-weight: map-get($font-weights, bold);
             color: $color-light;
             display: block;

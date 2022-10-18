@@ -78,6 +78,7 @@
             padding-top: 3rem;
             color: $color-light;
             font-size: $font-sm;
+            font-weight: map-get($font-weights, regular);
             text-align: center;
         }
     }
@@ -95,7 +96,7 @@
             align-items: left;
             
             &--title {
-                font-size: $font-rg;
+                font-size: $font-xrg;
                 padding: 2rem 0;
             }
         }
@@ -131,7 +132,7 @@
             &--text{
                     padding-top: 2rem;
                     font-size: $font-sm;
-                    font-weight: map-get($font-weights, classic);
+                    font-weight: map-get($font-weights, regular);
                 }
         }
     }

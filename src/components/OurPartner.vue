@@ -2,11 +2,11 @@
     <div class="partners">
         <div class="container">
             <h1 class="partners__container--header">Our Principal Partners</h1>
-            <div class="row justify-content-center">
-                <div class="col-md-4 partners__col ps-3 text-center">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4 partners__col">
                     <img src='~@/assets/images/img_1/afrilabs.png' class="img-fluid rounded-start partners__col--img">
                 </div>
-                <div class="col-md-4 partners__col ps-4 text-center">
+                <div class="col-md-4 partners__col">
                     <img src='~@/assets/images/img_1/ennovate.png' class="img-fluid rounded-start partners__col--img">
                 </div>
                 <div class="partners__cta text-center">
@@ -64,6 +64,8 @@
         padding: .5rem 0rem;
 
         &__container {
+            display: flex;
+            align-items: left;
 
                 &--header {
                     font-size: $font-xrg;
@@ -71,13 +73,26 @@
                 }
             }
 
+        &__row {
+            align-items: none;
+        }
+        
         &__col {
-            padding-bottom: .5rem;
+            padding: .5rem 1rem;
+            // padding-bottom: .5rem;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            &--img {
+               
+                padding: 0 .5rem;
+                // justify-content: center;
+
+                width: 100%;
+            }
         }
 
-        &--img {
-            width: 30%;
-        }
     }
 }
 </style>

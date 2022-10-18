@@ -6,15 +6,15 @@
                     <h1 class=" story__col--header">OUR STORY</h1>
                     <p class=" story__col--title">
                         <span class="story__col--sub-title">As founders who have spent a large part of our life in Academia, </span>
-                        <span class="story__col--sub-title">we got frustrated from seeing viable solutions with great market</span>
-                        <span class="story__col--sub-title">potential die within the lab without ever reaching the end users</span>
+                        <span class="story__col--sub-title">we got frustrated from seeing viable solutions with great market </span>
+                        <span class="story__col--sub-title">potential die within the lab without ever reaching the end users </span>
                         <span class="story__col--sub-title">who desperately needed them. Terrinova is a response to </span>
                         <span class="story__col--sub-title">this frustration.</span>
                     </p>
                     <p class="story__col--title">
-                        <span class="story__col--sub-title">We seek to to solve problems in the production and consumption</span>
-                        <span class="story__col--sub-title">end of the value chain by incentivising farmers to plant</span>
-                        <span class="story__col--sub-title">bio-fortified grains with improved yield, and make quality ready</span>
+                        <span class="story__col--sub-title">We seek to to solve problems in the production and consumption </span>
+                        <span class="story__col--sub-title">end of the value chain by incentivising farmers to plant </span>
+                        <span class="story__col--sub-title">bio-fortified grains with improved yield, and make quality ready </span>
                         <span class="story__col--sub-title">to use flours and grains available to industries and consumers.</span>
                     </p>
                 </div>
@@ -62,7 +62,7 @@
         &--header{
             color: $color-primary;
             font-weight: map-get($font-weights, medium);
-            padding-bottom: 1.5rem;
+            padding-bottom: 0rem;
             font-size: $font-sm;
            
         }

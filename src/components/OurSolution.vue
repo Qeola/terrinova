@@ -28,7 +28,7 @@
                                     <p class="card-text solution__card--text">
                                         <span class="solution__col--sub-text">We help farmers reduce their cost </span>
                                         <span class="solution__col--sub-text">of production by developing crop </span>
-                                        <span class="solution__col--sub-text"> varieties with high grain potential  </span>
+                                        <span class="solution__col--sub-text">varieties with high grain potential </span>
                                         <span class="solution__col--sub-text">and directly offtaking from them at </span>
                                         <span class="solution__col--sub-text">good prices. </span>
                                     </p>
@@ -95,7 +95,7 @@
         &--desc{
             color: $color-deep-green;
             font-size: $font-md;
-            font-weight: map-get($font-weights, classic);
+            font-weight: map-get($font-weights, medium);
             padding-bottom: 1.5rem;
         }
     }

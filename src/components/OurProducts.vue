@@ -139,8 +139,11 @@
         }
 
         &__new-col {
-            padding-top: 0rem;
+            padding: 0rem 3rem;
+            text-align: center;
         }
+
+
     }
 }
 </style>

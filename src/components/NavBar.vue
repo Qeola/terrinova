@@ -1,18 +1,18 @@
 <template>
-    <div class="navbar justify-content-center">
+    <div class="navbar justify-content-center ">
         <div class="new text-center">
             <li class="navbar__list ps-2">
                 <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__list--img" href="#home-comp" width="100%">
             </li>
-            <ul class="nav text-center" id="faqs">
+            <ul class="nav text-center align-items-center" id="faqs" >
                 <li class="nav-item navbar__nav-item ps-1">
                     <a class="navbar__nav-item--nav-link" aria-current="page" href="#our-story">Our Story</a>
                 </li>
                 <li class="nav-item navbar__nav-item ps-1">
                     <a class="navbar__nav-item--nav-link"  href="#products">Our Products</a>
                 </li>
-                <li class="nav-item navbar__nav-item">
-                    <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
+                <li class="nav-item navbar__nav-item align-self-start pt-2">
+                    <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="80%">
                 </li>
                 <li class="nav-item navbar__nav-item">
                     <a class=" navbar__nav-item--nav-link ps-1"  href="#the-opportunity">Our Team</a>

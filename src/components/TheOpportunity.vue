@@ -24,7 +24,7 @@
                         </span>
                     </p>
                 </div>
-                <div class="col-md-5 align-self-center">
+                <div class="col-md-5 align-self-center opportunity__sub-col">
                     <img src="~@/assets/images/img_1/maize.png" class="img-fluid" alt="...">
                 </div>
             </div>
@@ -106,6 +106,10 @@
 
         &__row {
             padding-top: 0rem;
+        }
+
+        &__sub-col {
+            display: none;
         }
     }
 }
