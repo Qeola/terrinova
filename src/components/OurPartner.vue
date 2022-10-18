@@ -3,10 +3,10 @@
         <div class="container">
             <h1 class="partners__container--header">Our Principal Partners</h1>
             <div class="row justify-content-center text-center">
-                <div class="col-md-4 partners__col">
+                <div class="col-md-4 col-sm-6 partners__col">
                     <img src='~@/assets/images/img_1/afrilabs.png' class="img-fluid rounded-start partners__col--img">
                 </div>
-                <div class="col-md-4 partners__col">
+                <div class="col-md-4 col-sm-6 partners__col">
                     <img src='~@/assets/images/img_1/ennovate.png' class="img-fluid rounded-start partners__col--img">
                 </div>
                 <div class="partners__cta text-center">
