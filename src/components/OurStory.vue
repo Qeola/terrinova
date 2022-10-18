@@ -12,7 +12,7 @@
                         <span class="story__col--sub-title">this frustration.</span>
                     </p>
                     <p class="story__col--title">
-                        <span class="story__col--sub-title">We seek to to solve problems in the production and consumption </span>
+                        <span class="story__col--sub-title">We seek to solve problems in the production and consumption </span>
                         <span class="story__col--sub-title">end of the value chain by incentivising farmers to plant </span>
                         <span class="story__col--sub-title">bio-fortified grains with improved yield, and make quality ready </span>
                         <span class="story__col--sub-title">to use flours and grains available to industries and consumers.</span>

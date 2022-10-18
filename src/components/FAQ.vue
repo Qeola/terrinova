@@ -56,7 +56,7 @@
                                 </h2>
                                 <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
                                 <div class="accordion-body">
-                                    <p>In low income countries, too many people are malnutritioned, experience food poisoning and their farmers  do not have access to improved varieties of crops, despite the abundance in laboratories and research institutes. Ids the force that drives us.</p>
+                                    <p>In low income countries, too many people are malnutritioned, experience food poisoning and their farmers  do not have access to improved varieties of crops, despite the abundance in laboratories and research institutes. This is the force that drives us.</p>
                                 </div>
                                 </div>
                             </div>

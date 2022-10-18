@@ -15,7 +15,7 @@
                     <img src='~@/assets/images/img_1/terrinova.png'  class="img-fluid rounded-start navbar__nav-item--img" href="#home-comp" width="100%">
                 </li>
                 <li class="nav-item navbar__nav-item">
-                    <a class=" navbar__nav-item--nav-link ps-1"  href="#the-opportunity">Our Team</a>
+                    <a class=" navbar__nav-item--nav-link ps-1"  href="#our-team">Our Team</a>
                 </li>
                 <li class="nav-item navbar__nav-item">
                     <a class=" navbar__nav-item--nav-link ps-1" href="#faqs-comp">FAQs</a>
