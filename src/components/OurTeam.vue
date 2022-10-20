@@ -31,7 +31,7 @@
                     <div class="card team__card mb-3" style="max-width: 700px;">
                         <div class="row g-0">
                             <div class="col-md-4 team__sub-col">
-                                <img src='~@/assets/images/img_1/espe.jpg' class="img-fluid rounded-start team__col--img-groupx" style="max-width: 100%;">
+                                <img src='~@/assets/images/img_1/esperance.jpg' class="img-fluid rounded-start team__col--img-groupx" style="max-width: 100%;">
                             </div>
                             <div class="col-md-8 align-self-end team__sub-col">
                                 <div class="card-body">

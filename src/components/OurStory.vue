@@ -21,10 +21,10 @@
                 <div class="col-md-6 story__col">
                     <div class="row justify-content-evenly story__sub-row">
                         <div class="col-md-6 story__sub-col">
-                            <img src='~@/assets/images/img_1/abdoul.jpg' width="100%" class="img-fluid story__sub-col--img-groupx">
+                            <img src='~@/assets/images/img_1/abd.jpg' width="100%" class="img-fluid story__sub-col--img-groupx">
                         </div>
                         <div class="col-md-6 story__sub-col">
-                            <img src='~@/assets/images/img_1/espérance.jpg' width="100%" class="img-fluid story__sub-col--img-groupy">
+                            <img src='~@/assets/images/img_1/esperance.jpg' width="100%" class="img-fluid story__sub-col--img-groupy">
                         </div>
                         <div class="col-md-12 story__sub-col text-center">
                             <h1 class="story__sub-col--text">Abdoul & Espérance</h1>
@@ -91,12 +91,14 @@
             -ms-transform: rotate(1.5deg); /* IE 9 */
             transform: rotate(-20deg);
             border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(12, 53, 15, 0.2);
         }
 
         &--img-groupy{
             -ms-transform: rotate(1.5deg); /* IE 9 */
             transform: rotate(20deg);
             border-radius: 10px;
+            box-shadow: 0px 4px 20px rgba(12, 53, 15, 0.2);
         }
 
         &--text{
