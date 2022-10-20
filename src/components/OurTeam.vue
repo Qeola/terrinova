@@ -7,7 +7,7 @@
                     <div class="card team__card mb-3" style="max-width: 700px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src='~@/assets/images/img_1/abd.jpg' class="img-fluid rounded-start team__col--img-groupy" style="max-width: 100%;">
+                                <img src='~@/assets/images/img_1/abdo.jpg' class="img-fluid rounded-start team__col--img-groupy" style="max-width: 100%;">
                             </div>
                             <div class="col-md-8 align-self-end">
                                 <div class="card-body">

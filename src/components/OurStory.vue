@@ -21,7 +21,7 @@
                 <div class="col-md-6 story__col">
                     <div class="row justify-content-evenly story__sub-row">
                         <div class="col-md-6 story__sub-col">
-                            <img src='~@/assets/images/img_1/abd.jpg' width="100%" class="img-fluid story__sub-col--img-groupx">
+                            <img src='~@/assets/images/img_1/abdo.jpg' width="100%" class="img-fluid story__sub-col--img-groupx">
                         </div>
                         <div class="col-md-6 story__sub-col">
                             <img src='~@/assets/images/img_1/esperance.jpg' width="100%" class="img-fluid story__sub-col--img-groupy">
