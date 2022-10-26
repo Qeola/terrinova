@@ -10,7 +10,7 @@
                         <span class="solution__col--desc">Wholesalers & Industries</span>
                     </p>
                     <div class="solution__cta">
-                        <a href="../assets/images/sample-file (1).pdf"  download="../assets/images/sample-file" target="_blank">
+                        <a href="https://drive.google.com/file/d/1RmQeZb6VETZQPcU6bjapUEz5vmJMhTft/view"  download target="_blank">
                             <button  type="submit"  class="solution__cta--btn solution__cta--button">Join our Mission</button>
                         </a>
                     </div>

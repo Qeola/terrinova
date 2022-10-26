@@ -10,7 +10,7 @@
                     <img src='~@/assets/images/img_1/ennovate.png' class="img-fluid rounded-start partners__col--img">
                 </div>
                 <div class="partners__cta text-center">
-                    <a href="../assets/images/sample-file (1).pdf"  download="../assets/images/sample-file" target="_blank">
+                    <a href="https://drive.google.com/file/d/1RmQeZb6VETZQPcU6bjapUEz5vmJMhTft/view"  download target="_blank">
                         <button  type="submit"  class="partners__cta--btn partners__cta--button">Join our Mission</button>
                     </a>
                 </div>
