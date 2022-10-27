@@ -14,7 +14,9 @@
                           <span class="banner__col--sub-desc">Africa’s most pressing food problems. </span>
                       </p>
                       <div class="banner__cta">
-                        <a href="../assets/images/sample-file (1).pdf"  download="../assets/images/sample-file" target="_blank"><button  type="submit"  class="banner__cta--btn banner__cta--button"  target="_blank">Partner with Us</button></a>
+                        <a href="https://drive.google.com/file/d/1RmQeZb6VETZQPcU6bjapUEz5vmJMhTft/view"  download target="_blank">
+                            <button class="banner__cta--btn banner__cta--button">Partner with Us</button>
+                        </a>
                       </div>
                     </div>
               </div>

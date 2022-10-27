@@ -36,8 +36,8 @@
                             <div class="col-md-8 align-self-end team__sub-col">
                                 <div class="card-body">
                                     <h5 class="card-title">
-                                        <span class="team__card-title--desc">Espérance </span>
-                                        <span class="team__card-title--bold-desc">Déo Gratias</span>
+                                        <span class="team__card-title--desc">Espérance Déo</span>
+                                        <span class="team__card-title--bold-desc">Gratias Codjia</span>
                                     </h5>
                                     <p class="card-text">
                                         <span class="team__card-title--sub-desc">Ph.D. Plant Breeding, </span>
