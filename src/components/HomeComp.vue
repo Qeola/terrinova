@@ -45,6 +45,8 @@ import OurTeam from './OurTeam.vue'
 import OurPartner from './OurPartner.vue'
 import FAQ from './FAQ.vue'
 import FooterComp from './FooterComp.vue'
+
+
 </script>
 
 <style lang="scss" scoped>

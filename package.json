@@ -1,5 +1,6 @@
 {
-  "name": "terinova-web",
+  "name": "terrinova",
+  "description": "Terrinova Group",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
