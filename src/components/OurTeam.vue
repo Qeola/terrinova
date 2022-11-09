@@ -42,7 +42,7 @@
                                     <p class="card-text">
                                         <span class="team__card-title--sub-desc">Ph.D. Plant Breeding, </span>
                                         <span class="team__card-title--sub-desc">PAULESI Research fellow, IITA. </span>
-                                        <span class="team__card-title--sub-desc">Maize biofortification for </span>
+                                        <span class="team__card-title--sub-desc">Cassava biofortification for </span>
                                         <span class="team__card-title--sub-desc">provitamin A (Research direction).</span>
                                     </p>
                                     <p class="card-text team__card-title--text"><i>Co-founder.</i></p>
